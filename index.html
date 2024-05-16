@@ -2,53 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changelog Explorer</title>
-    <style>
-        * {
-            font-family: sans-serif;
-            color: #E2E2E2;
-            background-color: #1E1E1E;
-        }
-
-        body {
-            padding-inline: 20px;
-        }
-
-        code, a {
-            font-family: monospace !important;
-            color: rgb(255, 151, 255);
-            background-color: #8e00c624 !important;
-            padding-inline: 2px;
-            border-radius: 3px;
-            border: 1px solid purple;
-        }
-
-        li {
-            margin-block: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    Nothing Here :(
+<body class="content">
+    <div class="navbar">
+        <div class="navContent"><h1>Minecraft Snapshot 21w37a-infinite</h1></div>
+        <div onclick="toggleSidebar()" class="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li class="selected"><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a-infinite</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+            <li><a href="#">21w37a</a></li>
+        </ul>
+    </div>
 
-    <script defer>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const id = urlParams.get('id');
-        if(id === null) {
-            window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-        }
-        else{
-            console.log(id);
-
-            fetch(`https://launchercontent.mojang.com/v2/javaPatchNotes/${id}.json`).then(response=>response.json())
-            .then(data=> {
-                document.body.innerHTML = `<h1>${data.title}</h1>` 
-                document.body.innerHTML += data.body;
-                document.title = data.title;
-            })
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
