@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog Explorer</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            color: #E2E2E2;
+            background-color: #1E1E1E;
+        }
+
+        body {
+            padding-inline: 20px;
+        }
+
+        code, a {
+            font-family: monospace !important;
+            color: rgb(255, 151, 255);
+            background-color: #8e00c624 !important;
+            padding-inline: 2px;
+            border-radius: 3px;
+            border: 1px solid purple;
+        }
+
+        li {
+            margin-block: 5px;
+        }
+    </style>
+</head>
+<body>
+    Nothing Here :(
+
+    <script defer>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const id = urlParams.get('id');
+        if(id === null) {
+            window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        }
+        else{
+            console.log(id);
+
+            fetch(`https://launchercontent.mojang.com/v2/javaPatchNotes/${id}.json`).then(response=>response.json())
+            .then(data=> {
+                document.body.innerHTML = `<h1>${data.title}</h1>` 
+                document.body.innerHTML += data.body;
+                document.title = data.title;
+            })
+        }
+    </script>
+</body>
+</html>
