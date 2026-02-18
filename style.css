@@ -3,7 +3,13 @@
     src: url("./minecraft-ten/MinecraftTen.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
+
+    /* Normalize vertical metrics – tune these values */
+    ascent-override: 90%;          /* reduce effective ascent → pulls text down on Linux */
+    descent-override: 30%;         /* adjust descent if clipping occurs */
+    size-adjust: 105%;             /* optional: slight overall scaling to match visual size */
+    line-gap-override: normal;     /* or 0% if you want no extra gap */
+}
 
   @font-face {
     font-family: "Minecraft Seven";
@@ -13,7 +19,9 @@
   }
 
 body {
+    overflow-x: hidden;
     margin: 0;
+    width: 100vw;
     padding: 0;
 }
 
@@ -246,16 +254,20 @@ img {
     font-family: "Minecraft Ten", sans-serif;
     position: absolute;
     width: 100px;
+    /* font-size: 16px; */
+    text-align: center;
+    text-transform: uppercase;
     height: 20px;
-    padding-top: 3px;
-    left: 50vw;
-    margin-left: -50px;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -10px;
     background: #dbdbdb;
     color: black;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 @media screen and (max-width: 850px) {
