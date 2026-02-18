@@ -1,5 +1,9 @@
 let article = document.getElementById("article");
 let title = document.getElementById("title");
+let thumbnail = document.getElementById("thumbnail");
+let label = document.getElementById("label");
+
+
 function toggleSidebar() {
     let sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("sidebarActive");
@@ -39,10 +43,25 @@ function loadArticle() {
             article.innerHTML = data.body;
             document.title = data.title;
             title.innerHTML = data.title;
+            label.innerHTML = data.type;
+            
+            if(data.image) {
+                thumbnail.src = `https://launchercontent.mojang.com${data.image.url}`;
+                thumbnail.alt = data.image.title;
+            }
+            else {
+                thumbnail.src = "fallback.jpg";
+                thumbnail.alt = "Thumbnail";
+            }
+            
         })
         .catch(()=>{
             article.innerHTML = ""
+            document.title = "Not Found :c";
             title.innerHTML = "Couldn't fetch changelog :("
+            thumbnail.src = "fallback.jpg";
+            thumbnail.alt = "Thumbnail";
+            label.innerHTML = "NOT FOUND";
         })
     }
 }
@@ -53,6 +72,9 @@ function loadVersionList() {
     .then((response) => response.json())
     .then((data) => {
 
+        data.entries.sort((a, b) => 
+            Date.parse(b.date) - Date.parse(a.date)
+        );
 
         data.entries.forEach((entry) => {
             let newElement = document.createElement("li");
