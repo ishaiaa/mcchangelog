@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Minecraft Ten";
-    src: url("./minecraft-ten/MinecraftTen.ttf") format("truetype");
+    src: url("./assets/fonts/minecraft-ten/MinecraftTen.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 
@@ -11,12 +11,21 @@
     line-gap-override: normal;     /* or 0% if you want no extra gap */
 }
 
-  @font-face {
+ @font-face {
     font-family: "Minecraft Seven";
-    src: url("./minecraft-seven/Minecraft Seven_2.ttf") format("truetype");
+    src: url("./assets/fonts/minecraft-seven/Minecraft Seven_2.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+:root {
+    --text-color:        219 219 219; /* rgb(219, 219, 219);*/
+    --background-color:  30 30 35;    /* rgb(30, 30, 35);*/
+    --navbar-color:      40 40 45;    /* rgb(40, 40, 45);*/
+    --accent-color:      219 153 243; /* rgb(219, 153, 243);*/
+    --accent-background: 143 0 199;   /* rgb(143, 0, 199);*/
+    --accent-border:     121 38 121;  /* rgb(121, 38, 121);*/
+}
 
 body {
     overflow-x: hidden;
@@ -27,29 +36,29 @@ body {
 
 * {
     font-family: sans-serif;
-    color: #E2E2E2;
+    color: rgb(var(--text-color));
 }
 
 h1 {
     font-family: "Minecraft Ten", sans-serif;
-    color: #dbdbdb;
+    color: rgb(var(--text-color));
 }
 
 h2 {
     font-family: "Minecraft Seven", sans-serif;
-    color: #dbdbdb;
+    color: rgb(var(--text-color));
     font-size: 20px;
 }
 
 h3 {
     font-family: "Minecraft Seven", sans-serif;
-    color: #dbdbdb;
-    font-size: 30px;
+    color: rgb(var(--text-color));
+    font-size: 15px;
 }
 
 body {
     padding-top: 50px;
-    background-color: #1E1E1E;
+    background-color: rgb(var(--background-color));
 }
 
 .article {
@@ -59,22 +68,22 @@ body {
 
 code, a {
     font-family: monospace !important;
-    color: rgb(219, 153, 243);
-    background-color: #8e00c624 !important;
+    color: rgb(var(--accent-color));
+    background-color: rgb(var(--accent-background) / 0.15) !important;
     padding-inline: 2px;
     border-radius: 3px;
-    border: 1px solid rgb(121, 38, 121);
+    border: 1px solid rgb(var(--accent-border));
 }
 
 pre code {
     font-family: monospace !important;
-    color: rgb(219, 153, 243);
+    color: rgb(var(--accent-color));
     display: block;;
-    background-color: rgba(143, 0, 199, 0.04) !important;
+    background-color: rgb(var(--accent-background) / 0.05) !important;
     padding-inline: 5px;
     border-radius: 3px;
-    white-space: pre;    /* preserves spacing */
-    border: 1px solid rgb(121, 38, 121);
+    white-space: pre;
+    border: 1px solid rgb(var(--accent-border));
 }
 
 
@@ -91,7 +100,7 @@ li {
     height: 60px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    background-color: #292929;
+    background-color: rgb(var(--navbar-color));
     padding-inline: calc((100vw - 800px) / 2);
     
 }
@@ -101,7 +110,7 @@ li {
     font-size: 2.1em !important;
     margin: 0;
     padding: 0;
-    color: #dbdbdb
+    color: rgb(var(--text-color));
 }
 
 .navContent {
@@ -134,16 +143,16 @@ li {
     transition: 0.2s;
     border-radius: 10px;
     height: 3px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(var(--text-color));
 }
 
 .hamburgerMenu:hover {
     cursor: pointer;;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(var(--text-color));
 }
 
 .hamburgerMenu:hover .bar {
-    background-color: #292929;
+    background-color: rgb(var(--navbar-color));
 }
 
 .sidebar {
@@ -154,7 +163,7 @@ li {
     padding: 0;
     width: 290px;
     height: calc(100vh - 60px);
-    background-color: #292929;
+    background-color: rgb(var(--navbar-color));
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -199,22 +208,22 @@ li {
     font-weight: normal;
     padding: 0;
     margin: 0;
-    color: rgb(219, 153, 243);
+    color: rgb(var(--accent-color));
 
 }
 
 .sidebar p:hover {
-    color: rgb(219, 153, 243);
+    color: rgb(var(--accent-color));
     cursor: pointer;
-    background-color: #8e00c613 !important;
-    border: 1px solid rgb(121, 38, 121);
+    background-color: rgb(var(--accent-background) / 0.15) !important;
+    border: 1px solid rgb(var(--accent-border)) !important;;
 }
 
 .selected {
     font-weight: 700 !important;
-    color: rgb(219, 153, 243);
-    background-color: #8e00c624 !important;
-    border: 1px solid rgb(121, 38, 121);
+    color: rgb(var(--accent-color));
+    background-color: rgb(var(--accent-background) / 0.15) !important;
+    border: 1px solid rgb(var(--accent-border)) !important;
 }
 
 
@@ -261,7 +270,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     bottom: -10px;
-    background: #dbdbdb;
+    background: rgb(var(--text-color));
     color: black;
     
     display: flex;

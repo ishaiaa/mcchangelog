@@ -1,0 +1,1336 @@
+[28669.994917][ctx       none]==========va_TraceInitialize
+[28669.994920][ctx       none]==========	VA-API vendor string: Mesa Gallium driver 26.0.1-arch1.1 for AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.19.6-arch1-1)
+[28669.994921][ctx       none]=========vaInitialize ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994939][ctx       none]=========vaQueryConfigProfiles ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994949][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994954][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994956][ctx       none]==========va_TraceCreateConfig
+[28669.994956][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.994957][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.994957][ctx       none]	num_attribs = 1
+[28669.994957][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.994958][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.994974][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994978][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.994978][ctx       none]	config = 0x00000001
+[28669.994981][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.994993][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.994994][ctx       none]	config = 0x00000001
+[28669.994994][ctx       none]	attrib_list[0] =
+[28669.994994][ctx       none]		type = 1
+[28669.994994][ctx       none]		flags = 3
+[28669.994995][ctx       none]		value.type = 1
+[28669.994995][ctx       none]		value.value.i = 0x3231564e
+[28669.994995][ctx       none]	attrib_list[1] =
+[28669.994995][ctx       none]		type = 6
+[28669.994995][ctx       none]		flags = 3
+[28669.994996][ctx       none]		value.type = 1
+[28669.994996][ctx       none]		value.value.i = 0x68000001
+[28669.994996][ctx       none]	attrib_list[2] =
+[28669.994996][ctx       none]		type = 7
+[28669.994996][ctx       none]		flags = 2
+[28669.994996][ctx       none]		value.type = 3
+[28669.994997][ctx       none]		value.value.p = (nil)
+[28669.994997][ctx       none]	attrib_list[3] =
+[28669.994997][ctx       none]		type = 9
+[28669.994997][ctx       none]		flags = 2
+[28669.994997][ctx       none]		value.type = 3
+[28669.994998][ctx       none]		value.value.p = (nil)
+[28669.994998][ctx       none]	attrib_list[4] =
+[28669.994998][ctx       none]		type = 2
+[28669.994998][ctx       none]		flags = 1
+[28669.994998][ctx       none]		value.type = 1
+[28669.994998][ctx       none]		value.value.i = 0x00000040
+[28669.994999][ctx       none]	attrib_list[5] =
+[28669.994999][ctx       none]		type = 4
+[28669.994999][ctx       none]		flags = 1
+[28669.994999][ctx       none]		value.type = 1
+[28669.994999][ctx       none]		value.value.i = 0x00000040
+[28669.994999][ctx       none]	attrib_list[6] =
+[28669.994999][ctx       none]		type = 3
+[28669.995000][ctx       none]		flags = 1
+[28669.995000][ctx       none]		value.type = 1
+[28669.995000][ctx       none]		value.value.i = 0x00001000
+[28669.995000][ctx       none]	attrib_list[7] =
+[28669.995000][ctx       none]		type = 5
+[28669.995000][ctx       none]		flags = 1
+[28669.995001][ctx       none]		value.type = 1
+[28669.995001][ctx       none]		value.value.i = 0x00001000
+[28669.995004][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995009][ctx       none]==========va_TraceCreateConfig
+[28669.995009][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995010][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995010][ctx       none]	num_attribs = 0
+[28669.995012][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995018][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995019][ctx       none]==========va_TraceDestroyConfig
+[28669.995019][ctx       none]	config = 0x00000002
+[28669.995021][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995021][ctx       none]==========va_TraceDestroyConfig
+[28669.995022][ctx       none]	config = 0x00000001
+[28669.995027][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995028][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995029][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995030][ctx       none]==========va_TraceCreateConfig
+[28669.995030][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995030][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995031][ctx       none]	num_attribs = 1
+[28669.995031][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995031][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995033][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995034][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995034][ctx       none]	config = 0x00000001
+[28669.995035][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995037][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995037][ctx       none]	config = 0x00000001
+[28669.995037][ctx       none]	attrib_list[0] =
+[28669.995037][ctx       none]		type = 1
+[28669.995037][ctx       none]		flags = 3
+[28669.995037][ctx       none]		value.type = 1
+[28669.995038][ctx       none]		value.value.i = 0x3231564e
+[28669.995038][ctx       none]	attrib_list[1] =
+[28669.995038][ctx       none]		type = 6
+[28669.995038][ctx       none]		flags = 3
+[28669.995038][ctx       none]		value.type = 1
+[28669.995038][ctx       none]		value.value.i = 0x68000001
+[28669.995039][ctx       none]	attrib_list[2] =
+[28669.995039][ctx       none]		type = 7
+[28669.995039][ctx       none]		flags = 2
+[28669.995039][ctx       none]		value.type = 3
+[28669.995039][ctx       none]		value.value.p = (nil)
+[28669.995039][ctx       none]	attrib_list[3] =
+[28669.995040][ctx       none]		type = 9
+[28669.995040][ctx       none]		flags = 2
+[28669.995040][ctx       none]		value.type = 3
+[28669.995040][ctx       none]		value.value.p = (nil)
+[28669.995040][ctx       none]	attrib_list[4] =
+[28669.995040][ctx       none]		type = 2
+[28669.995040][ctx       none]		flags = 1
+[28669.995041][ctx       none]		value.type = 1
+[28669.995041][ctx       none]		value.value.i = 0x00000040
+[28669.995041][ctx       none]	attrib_list[5] =
+[28669.995041][ctx       none]		type = 4
+[28669.995041][ctx       none]		flags = 1
+[28669.995041][ctx       none]		value.type = 1
+[28669.995042][ctx       none]		value.value.i = 0x00000040
+[28669.995042][ctx       none]	attrib_list[6] =
+[28669.995042][ctx       none]		type = 3
+[28669.995042][ctx       none]		flags = 1
+[28669.995042][ctx       none]		value.type = 1
+[28669.995042][ctx       none]		value.value.i = 0x00001000
+[28669.995043][ctx       none]	attrib_list[7] =
+[28669.995043][ctx       none]		type = 5
+[28669.995043][ctx       none]		flags = 1
+[28669.995043][ctx       none]		value.type = 1
+[28669.995043][ctx       none]		value.value.i = 0x00001000
+[28669.995045][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995046][ctx       none]==========va_TraceCreateConfig
+[28669.995046][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995046][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995046][ctx       none]	num_attribs = 0
+[28669.995048][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995049][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995050][ctx       none]==========va_TraceDestroyConfig
+[28669.995050][ctx       none]	config = 0x00000002
+[28669.995051][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995052][ctx       none]==========va_TraceDestroyConfig
+[28669.995052][ctx       none]	config = 0x00000001
+[28669.995056][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995057][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995058][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995059][ctx       none]==========va_TraceCreateConfig
+[28669.995059][ctx       none]	profile = 7, VAProfileH264High
+[28669.995059][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995059][ctx       none]	num_attribs = 1
+[28669.995059][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995060][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995062][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995062][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995062][ctx       none]	config = 0x00000001
+[28669.995064][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995065][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995065][ctx       none]	config = 0x00000001
+[28669.995065][ctx       none]	attrib_list[0] =
+[28669.995065][ctx       none]		type = 1
+[28669.995066][ctx       none]		flags = 3
+[28669.995066][ctx       none]		value.type = 1
+[28669.995066][ctx       none]		value.value.i = 0x3231564e
+[28669.995066][ctx       none]	attrib_list[1] =
+[28669.995066][ctx       none]		type = 6
+[28669.995066][ctx       none]		flags = 3
+[28669.995066][ctx       none]		value.type = 1
+[28669.995067][ctx       none]		value.value.i = 0x68000001
+[28669.995067][ctx       none]	attrib_list[2] =
+[28669.995067][ctx       none]		type = 7
+[28669.995067][ctx       none]		flags = 2
+[28669.995067][ctx       none]		value.type = 3
+[28669.995067][ctx       none]		value.value.p = (nil)
+[28669.995068][ctx       none]	attrib_list[3] =
+[28669.995068][ctx       none]		type = 9
+[28669.995068][ctx       none]		flags = 2
+[28669.995068][ctx       none]		value.type = 3
+[28669.995068][ctx       none]		value.value.p = (nil)
+[28669.995068][ctx       none]	attrib_list[4] =
+[28669.995069][ctx       none]		type = 2
+[28669.995069][ctx       none]		flags = 1
+[28669.995069][ctx       none]		value.type = 1
+[28669.995069][ctx       none]		value.value.i = 0x00000040
+[28669.995069][ctx       none]	attrib_list[5] =
+[28669.995069][ctx       none]		type = 4
+[28669.995069][ctx       none]		flags = 1
+[28669.995070][ctx       none]		value.type = 1
+[28669.995070][ctx       none]		value.value.i = 0x00000040
+[28669.995070][ctx       none]	attrib_list[6] =
+[28669.995070][ctx       none]		type = 3
+[28669.995070][ctx       none]		flags = 1
+[28669.995070][ctx       none]		value.type = 1
+[28669.995071][ctx       none]		value.value.i = 0x00001000
+[28669.995071][ctx       none]	attrib_list[7] =
+[28669.995071][ctx       none]		type = 5
+[28669.995071][ctx       none]		flags = 1
+[28669.995071][ctx       none]		value.type = 1
+[28669.995071][ctx       none]		value.value.i = 0x00001000
+[28669.995073][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995074][ctx       none]==========va_TraceCreateConfig
+[28669.995074][ctx       none]	profile = 7, VAProfileH264High
+[28669.995074][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995074][ctx       none]	num_attribs = 0
+[28669.995076][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995077][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995078][ctx       none]==========va_TraceDestroyConfig
+[28669.995078][ctx       none]	config = 0x00000002
+[28669.995079][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995080][ctx       none]==========va_TraceDestroyConfig
+[28669.995080][ctx       none]	config = 0x00000001
+[28669.995082][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995083][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995084][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995085][ctx       none]==========va_TraceCreateConfig
+[28669.995085][ctx       none]	profile = 17, VAProfileHEVCMain
+[28669.995085][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995085][ctx       none]	num_attribs = 1
+[28669.995085][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995085][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995089][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995090][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995090][ctx       none]	config = 0x00000001
+[28669.995092][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995093][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995093][ctx       none]	config = 0x00000001
+[28669.995093][ctx       none]	attrib_list[0] =
+[28669.995093][ctx       none]		type = 1
+[28669.995094][ctx       none]		flags = 3
+[28669.995094][ctx       none]		value.type = 1
+[28669.995094][ctx       none]		value.value.i = 0x3231564e
+[28669.995094][ctx       none]	attrib_list[1] =
+[28669.995094][ctx       none]		type = 6
+[28669.995094][ctx       none]		flags = 3
+[28669.995094][ctx       none]		value.type = 1
+[28669.995095][ctx       none]		value.value.i = 0x68000001
+[28669.995095][ctx       none]	attrib_list[2] =
+[28669.995095][ctx       none]		type = 7
+[28669.995095][ctx       none]		flags = 2
+[28669.995095][ctx       none]		value.type = 3
+[28669.995095][ctx       none]		value.value.p = (nil)
+[28669.995096][ctx       none]	attrib_list[3] =
+[28669.995096][ctx       none]		type = 9
+[28669.995096][ctx       none]		flags = 2
+[28669.995096][ctx       none]		value.type = 3
+[28669.995096][ctx       none]		value.value.p = (nil)
+[28669.995096][ctx       none]	attrib_list[4] =
+[28669.995097][ctx       none]		type = 2
+[28669.995097][ctx       none]		flags = 1
+[28669.995097][ctx       none]		value.type = 1
+[28669.995097][ctx       none]		value.value.i = 0x00000040
+[28669.995097][ctx       none]	attrib_list[5] =
+[28669.995097][ctx       none]		type = 4
+[28669.995097][ctx       none]		flags = 1
+[28669.995098][ctx       none]		value.type = 1
+[28669.995098][ctx       none]		value.value.i = 0x00000040
+[28669.995098][ctx       none]	attrib_list[6] =
+[28669.995098][ctx       none]		type = 3
+[28669.995098][ctx       none]		flags = 1
+[28669.995098][ctx       none]		value.type = 1
+[28669.995099][ctx       none]		value.value.i = 0x00002000
+[28669.995099][ctx       none]	attrib_list[7] =
+[28669.995099][ctx       none]		type = 5
+[28669.995099][ctx       none]		flags = 1
+[28669.995099][ctx       none]		value.type = 1
+[28669.995099][ctx       none]		value.value.i = 0x00001100
+[28669.995101][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995102][ctx       none]==========va_TraceCreateConfig
+[28669.995102][ctx       none]	profile = 17, VAProfileHEVCMain
+[28669.995102][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995102][ctx       none]	num_attribs = 0
+[28669.995104][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995105][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995106][ctx       none]==========va_TraceDestroyConfig
+[28669.995106][ctx       none]	config = 0x00000002
+[28669.995107][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995108][ctx       none]==========va_TraceDestroyConfig
+[28669.995108][ctx       none]	config = 0x00000001
+[28669.995110][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995111][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995112][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995112][ctx       none]==========va_TraceCreateConfig
+[28669.995113][ctx       none]	profile = 18, VAProfileHEVCMain10
+[28669.995113][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995113][ctx       none]	num_attribs = 1
+[28669.995113][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995113][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995117][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995118][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995118][ctx       none]	config = 0x00000001
+[28669.995120][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995121][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995121][ctx       none]	config = 0x00000001
+[28669.995121][ctx       none]	attrib_list[0] =
+[28669.995121][ctx       none]		type = 1
+[28669.995121][ctx       none]		flags = 3
+[28669.995122][ctx       none]		value.type = 1
+[28669.995122][ctx       none]		value.value.i = 0x3231564e
+[28669.995122][ctx       none]	attrib_list[1] =
+[28669.995122][ctx       none]		type = 1
+[28669.995122][ctx       none]		flags = 3
+[28669.995122][ctx       none]		value.type = 1
+[28669.995123][ctx       none]		value.value.i = 0x30313050
+[28669.995123][ctx       none]	attrib_list[2] =
+[28669.995123][ctx       none]		type = 1
+[28669.995123][ctx       none]		flags = 3
+[28669.995123][ctx       none]		value.type = 1
+[28669.995123][ctx       none]		value.value.i = 0x36313050
+[28669.995124][ctx       none]	attrib_list[3] =
+[28669.995124][ctx       none]		type = 6
+[28669.995124][ctx       none]		flags = 3
+[28669.995124][ctx       none]		value.type = 1
+[28669.995124][ctx       none]		value.value.i = 0x68000001
+[28669.995124][ctx       none]	attrib_list[4] =
+[28669.995124][ctx       none]		type = 7
+[28669.995125][ctx       none]		flags = 2
+[28669.995125][ctx       none]		value.type = 3
+[28669.995125][ctx       none]		value.value.p = (nil)
+[28669.995125][ctx       none]	attrib_list[5] =
+[28669.995125][ctx       none]		type = 9
+[28669.995125][ctx       none]		flags = 2
+[28669.995126][ctx       none]		value.type = 3
+[28669.995126][ctx       none]		value.value.p = (nil)
+[28669.995126][ctx       none]	attrib_list[6] =
+[28669.995126][ctx       none]		type = 2
+[28669.995126][ctx       none]		flags = 1
+[28669.995126][ctx       none]		value.type = 1
+[28669.995127][ctx       none]		value.value.i = 0x00000040
+[28669.995127][ctx       none]	attrib_list[7] =
+[28669.995127][ctx       none]		type = 4
+[28669.995127][ctx       none]		flags = 1
+[28669.995127][ctx       none]		value.type = 1
+[28669.995127][ctx       none]		value.value.i = 0x00000040
+[28669.995127][ctx       none]	attrib_list[8] =
+[28669.995128][ctx       none]		type = 3
+[28669.995128][ctx       none]		flags = 1
+[28669.995128][ctx       none]		value.type = 1
+[28669.995128][ctx       none]		value.value.i = 0x00002000
+[28669.995128][ctx       none]	attrib_list[9] =
+[28669.995128][ctx       none]		type = 5
+[28669.995129][ctx       none]		flags = 1
+[28669.995129][ctx       none]		value.type = 1
+[28669.995129][ctx       none]		value.value.i = 0x00001100
+[28669.995131][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995131][ctx       none]==========va_TraceCreateConfig
+[28669.995132][ctx       none]	profile = 18, VAProfileHEVCMain10
+[28669.995132][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995132][ctx       none]	num_attribs = 0
+[28669.995134][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995135][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995135][ctx       none]==========va_TraceDestroyConfig
+[28669.995135][ctx       none]	config = 0x00000002
+[28669.995137][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995138][ctx       none]==========va_TraceDestroyConfig
+[28669.995138][ctx       none]	config = 0x00000001
+[28669.995139][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995140][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995142][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995142][ctx       none]==========va_TraceCreateConfig
+[28669.995143][ctx       none]	profile = 12, VAProfileJPEGBaseline
+[28669.995143][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995143][ctx       none]	num_attribs = 1
+[28669.995143][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995143][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995147][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995148][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995148][ctx       none]	config = 0x00000001
+[28669.995150][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995151][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995151][ctx       none]	config = 0x00000001
+[28669.995151][ctx       none]	attrib_list[0] =
+[28669.995151][ctx       none]		type = 1
+[28669.995152][ctx       none]		flags = 3
+[28669.995152][ctx       none]		value.type = 1
+[28669.995152][ctx       none]		value.value.i = 0x3231564e
+[28669.995152][ctx       none]	attrib_list[1] =
+[28669.995152][ctx       none]		type = 1
+[28669.995152][ctx       none]		flags = 3
+[28669.995153][ctx       none]		value.type = 1
+[28669.995153][ctx       none]		value.value.i = 0x30303859
+[28669.995153][ctx       none]	attrib_list[2] =
+[28669.995153][ctx       none]		type = 1
+[28669.995153][ctx       none]		flags = 3
+[28669.995153][ctx       none]		value.type = 1
+[28669.995154][ctx       none]		value.value.i = 0x32595559
+[28669.995154][ctx       none]	attrib_list[3] =
+[28669.995154][ctx       none]		type = 1
+[28669.995154][ctx       none]		flags = 3
+[28669.995154][ctx       none]		value.type = 1
+[28669.995154][ctx       none]		value.value.i = 0x56323234
+[28669.995154][ctx       none]	attrib_list[4] =
+[28669.995155][ctx       none]		type = 1
+[28669.995155][ctx       none]		flags = 3
+[28669.995155][ctx       none]		value.type = 1
+[28669.995155][ctx       none]		value.value.i = 0x50343434
+[28669.995155][ctx       none]	attrib_list[5] =
+[28669.995155][ctx       none]		type = 6
+[28669.995156][ctx       none]		flags = 3
+[28669.995156][ctx       none]		value.type = 1
+[28669.995156][ctx       none]		value.value.i = 0x68000001
+[28669.995156][ctx       none]	attrib_list[6] =
+[28669.995156][ctx       none]		type = 7
+[28669.995156][ctx       none]		flags = 2
+[28669.995156][ctx       none]		value.type = 3
+[28669.995157][ctx       none]		value.value.p = (nil)
+[28669.995157][ctx       none]	attrib_list[7] =
+[28669.995157][ctx       none]		type = 9
+[28669.995157][ctx       none]		flags = 2
+[28669.995157][ctx       none]		value.type = 3
+[28669.995157][ctx       none]		value.value.p = (nil)
+[28669.995158][ctx       none]	attrib_list[8] =
+[28669.995158][ctx       none]		type = 2
+[28669.995158][ctx       none]		flags = 1
+[28669.995158][ctx       none]		value.type = 1
+[28669.995158][ctx       none]		value.value.i = 0x00000040
+[28669.995158][ctx       none]	attrib_list[9] =
+[28669.995159][ctx       none]		type = 4
+[28669.995159][ctx       none]		flags = 1
+[28669.995159][ctx       none]		value.type = 1
+[28669.995159][ctx       none]		value.value.i = 0x00000040
+[28669.995159][ctx       none]	attrib_list[10] =
+[28669.995159][ctx       none]		type = 3
+[28669.995159][ctx       none]		flags = 1
+[28669.995160][ctx       none]		value.type = 1
+[28669.995160][ctx       none]		value.value.i = 0x00004000
+[28669.995161][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995162][ctx       none]==========va_TraceCreateConfig
+[28669.995163][ctx       none]	profile = 12, VAProfileJPEGBaseline
+[28669.995163][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995163][ctx       none]	num_attribs = 0
+[28669.995165][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995166][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995166][ctx       none]==========va_TraceDestroyConfig
+[28669.995166][ctx       none]	config = 0x00000002
+[28669.995170][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995171][ctx       none]==========va_TraceDestroyConfig
+[28669.995171][ctx       none]	config = 0x00000001
+[28669.995172][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995173][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995174][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995175][ctx       none]==========va_TraceCreateConfig
+[28669.995175][ctx       none]	profile = 19, VAProfileVP9Profile0
+[28669.995175][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995176][ctx       none]	num_attribs = 1
+[28669.995176][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995176][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995178][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995178][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995179][ctx       none]	config = 0x00000001
+[28669.995180][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995181][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995181][ctx       none]	config = 0x00000001
+[28669.995181][ctx       none]	attrib_list[0] =
+[28669.995182][ctx       none]		type = 1
+[28669.995182][ctx       none]		flags = 3
+[28669.995182][ctx       none]		value.type = 1
+[28669.995182][ctx       none]		value.value.i = 0x3231564e
+[28669.995182][ctx       none]	attrib_list[1] =
+[28669.995182][ctx       none]		type = 6
+[28669.995183][ctx       none]		flags = 3
+[28669.995183][ctx       none]		value.type = 1
+[28669.995183][ctx       none]		value.value.i = 0x68000001
+[28669.995183][ctx       none]	attrib_list[2] =
+[28669.995183][ctx       none]		type = 7
+[28669.995183][ctx       none]		flags = 2
+[28669.995183][ctx       none]		value.type = 3
+[28669.995184][ctx       none]		value.value.p = (nil)
+[28669.995184][ctx       none]	attrib_list[3] =
+[28669.995184][ctx       none]		type = 9
+[28669.995184][ctx       none]		flags = 2
+[28669.995184][ctx       none]		value.type = 3
+[28669.995184][ctx       none]		value.value.p = (nil)
+[28669.995185][ctx       none]	attrib_list[4] =
+[28669.995185][ctx       none]		type = 2
+[28669.995185][ctx       none]		flags = 1
+[28669.995185][ctx       none]		value.type = 1
+[28669.995185][ctx       none]		value.value.i = 0x00000010
+[28669.995185][ctx       none]	attrib_list[5] =
+[28669.995186][ctx       none]		type = 4
+[28669.995186][ctx       none]		flags = 1
+[28669.995186][ctx       none]		value.type = 1
+[28669.995186][ctx       none]		value.value.i = 0x00000010
+[28669.995186][ctx       none]	attrib_list[6] =
+[28669.995186][ctx       none]		type = 3
+[28669.995186][ctx       none]		flags = 1
+[28669.995187][ctx       none]		value.type = 1
+[28669.995187][ctx       none]		value.value.i = 0x00002000
+[28669.995187][ctx       none]	attrib_list[7] =
+[28669.995187][ctx       none]		type = 5
+[28669.995187][ctx       none]		flags = 1
+[28669.995187][ctx       none]		value.type = 1
+[28669.995188][ctx       none]		value.value.i = 0x00001100
+[28669.995189][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995232][ctx       none]==========va_TraceCreateConfig
+[28669.995232][ctx       none]	profile = 19, VAProfileVP9Profile0
+[28669.995233][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995233][ctx       none]	num_attribs = 0
+[28669.995235][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995236][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995237][ctx       none]==========va_TraceDestroyConfig
+[28669.995237][ctx       none]	config = 0x00000002
+[28669.995241][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995241][ctx       none]==========va_TraceDestroyConfig
+[28669.995242][ctx       none]	config = 0x00000001
+[28669.995243][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995244][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995245][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995246][ctx       none]==========va_TraceCreateConfig
+[28669.995246][ctx       none]	profile = 21, VAProfileVP9Profile2
+[28669.995246][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995247][ctx       none]	num_attribs = 1
+[28669.995247][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995247][ctx       none]		attrib_list[0].value = 0x00000100
+[28669.995249][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995249][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995250][ctx       none]	config = 0x00000001
+[28669.995251][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995252][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995252][ctx       none]	config = 0x00000001
+[28669.995253][ctx       none]	attrib_list[0] =
+[28669.995253][ctx       none]		type = 1
+[28669.995253][ctx       none]		flags = 3
+[28669.995253][ctx       none]		value.type = 1
+[28669.995253][ctx       none]		value.value.i = 0x30313050
+[28669.995253][ctx       none]	attrib_list[1] =
+[28669.995253][ctx       none]		type = 1
+[28669.995254][ctx       none]		flags = 3
+[28669.995254][ctx       none]		value.type = 1
+[28669.995254][ctx       none]		value.value.i = 0x36313050
+[28669.995254][ctx       none]	attrib_list[2] =
+[28669.995254][ctx       none]		type = 6
+[28669.995254][ctx       none]		flags = 3
+[28669.995255][ctx       none]		value.type = 1
+[28669.995255][ctx       none]		value.value.i = 0x68000001
+[28669.995255][ctx       none]	attrib_list[3] =
+[28669.995255][ctx       none]		type = 7
+[28669.995255][ctx       none]		flags = 2
+[28669.995255][ctx       none]		value.type = 3
+[28669.995256][ctx       none]		value.value.p = (nil)
+[28669.995256][ctx       none]	attrib_list[4] =
+[28669.995256][ctx       none]		type = 9
+[28669.995256][ctx       none]		flags = 2
+[28669.995256][ctx       none]		value.type = 3
+[28669.995256][ctx       none]		value.value.p = (nil)
+[28669.995256][ctx       none]	attrib_list[5] =
+[28669.995257][ctx       none]		type = 2
+[28669.995257][ctx       none]		flags = 1
+[28669.995257][ctx       none]		value.type = 1
+[28669.995257][ctx       none]		value.value.i = 0x00000010
+[28669.995257][ctx       none]	attrib_list[6] =
+[28669.995257][ctx       none]		type = 4
+[28669.995258][ctx       none]		flags = 1
+[28669.995258][ctx       none]		value.type = 1
+[28669.995258][ctx       none]		value.value.i = 0x00000010
+[28669.995258][ctx       none]	attrib_list[7] =
+[28669.995258][ctx       none]		type = 3
+[28669.995258][ctx       none]		flags = 1
+[28669.995259][ctx       none]		value.type = 1
+[28669.995259][ctx       none]		value.value.i = 0x00002000
+[28669.995259][ctx       none]	attrib_list[8] =
+[28669.995259][ctx       none]		type = 5
+[28669.995259][ctx       none]		flags = 1
+[28669.995259][ctx       none]		value.type = 1
+[28669.995259][ctx       none]		value.value.i = 0x00001100
+[28669.995261][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995262][ctx       none]==========va_TraceCreateConfig
+[28669.995262][ctx       none]	profile = 21, VAProfileVP9Profile2
+[28669.995262][ctx       none]	entrypoint = 1, VAEntrypointVLD
+[28669.995263][ctx       none]	num_attribs = 0
+[28669.995264][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995265][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995266][ctx       none]==========va_TraceDestroyConfig
+[28669.995266][ctx       none]	config = 0x00000002
+[28669.995270][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995271][ctx       none]==========va_TraceDestroyConfig
+[28669.995271][ctx       none]	config = 0x00000001
+[28669.995272][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995274][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995275][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995276][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995277][ctx       none]==========va_TraceCreateConfig
+[28669.995277][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995277][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995278][ctx       none]	num_attribs = 3
+[28669.995278][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995278][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995278][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995278][ctx       none]		attrib_list[1].value = 0x00000002
+[28669.995279][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995279][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995281][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995282][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995282][ctx       none]	config = 0x00000001
+[28669.995283][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995284][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995285][ctx       none]	config = 0x00000001
+[28669.995285][ctx       none]	attrib_list[0] =
+[28669.995285][ctx       none]		type = 1
+[28669.995285][ctx       none]		flags = 3
+[28669.995285][ctx       none]		value.type = 1
+[28669.995285][ctx       none]		value.value.i = 0x3231564e
+[28669.995286][ctx       none]	attrib_list[1] =
+[28669.995286][ctx       none]		type = 6
+[28669.995286][ctx       none]		flags = 3
+[28669.995286][ctx       none]		value.type = 1
+[28669.995286][ctx       none]		value.value.i = 0x68000001
+[28669.995286][ctx       none]	attrib_list[2] =
+[28669.995287][ctx       none]		type = 7
+[28669.995287][ctx       none]		flags = 2
+[28669.995287][ctx       none]		value.type = 3
+[28669.995287][ctx       none]		value.value.p = (nil)
+[28669.995287][ctx       none]	attrib_list[3] =
+[28669.995287][ctx       none]		type = 9
+[28669.995288][ctx       none]		flags = 2
+[28669.995288][ctx       none]		value.type = 3
+[28669.995288][ctx       none]		value.value.p = (nil)
+[28669.995288][ctx       none]	attrib_list[4] =
+[28669.995288][ctx       none]		type = 2
+[28669.995288][ctx       none]		flags = 1
+[28669.995288][ctx       none]		value.type = 1
+[28669.995289][ctx       none]		value.value.i = 0x00000080
+[28669.995289][ctx       none]	attrib_list[5] =
+[28669.995289][ctx       none]		type = 4
+[28669.995289][ctx       none]		flags = 1
+[28669.995289][ctx       none]		value.type = 1
+[28669.995289][ctx       none]		value.value.i = 0x00000080
+[28669.995290][ctx       none]	attrib_list[6] =
+[28669.995290][ctx       none]		type = 3
+[28669.995290][ctx       none]		flags = 1
+[28669.995290][ctx       none]		value.type = 1
+[28669.995290][ctx       none]		value.value.i = 0x00001000
+[28669.995290][ctx       none]	attrib_list[7] =
+[28669.995291][ctx       none]		type = 5
+[28669.995291][ctx       none]		flags = 1
+[28669.995291][ctx       none]		value.type = 1
+[28669.995291][ctx       none]		value.value.i = 0x00001000
+[28669.995293][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995294][ctx       none]==========va_TraceCreateConfig
+[28669.995294][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995294][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995295][ctx       none]	num_attribs = 0
+[28669.995298][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995299][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995300][ctx       none]==========va_TraceDestroyConfig
+[28669.995300][ctx       none]	config = 0x00000002
+[28669.995302][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995302][ctx       none]==========va_TraceDestroyConfig
+[28669.995303][ctx       none]	config = 0x00000001
+[28669.995304][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995305][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995306][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995307][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995307][ctx       none]==========va_TraceCreateConfig
+[28669.995308][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995308][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995308][ctx       none]	num_attribs = 3
+[28669.995308][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995308][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995308][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995309][ctx       none]		attrib_list[1].value = 0x00000002
+[28669.995309][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995309][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995311][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995312][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995312][ctx       none]	config = 0x00000001
+[28669.995313][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995314][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995314][ctx       none]	config = 0x00000001
+[28669.995315][ctx       none]	attrib_list[0] =
+[28669.995315][ctx       none]		type = 1
+[28669.995315][ctx       none]		flags = 3
+[28669.995315][ctx       none]		value.type = 1
+[28669.995315][ctx       none]		value.value.i = 0x3231564e
+[28669.995315][ctx       none]	attrib_list[1] =
+[28669.995316][ctx       none]		type = 6
+[28669.995316][ctx       none]		flags = 3
+[28669.995316][ctx       none]		value.type = 1
+[28669.995316][ctx       none]		value.value.i = 0x68000001
+[28669.995316][ctx       none]	attrib_list[2] =
+[28669.995316][ctx       none]		type = 7
+[28669.995316][ctx       none]		flags = 2
+[28669.995317][ctx       none]		value.type = 3
+[28669.995317][ctx       none]		value.value.p = (nil)
+[28669.995317][ctx       none]	attrib_list[3] =
+[28669.995317][ctx       none]		type = 9
+[28669.995317][ctx       none]		flags = 2
+[28669.995317][ctx       none]		value.type = 3
+[28669.995318][ctx       none]		value.value.p = (nil)
+[28669.995318][ctx       none]	attrib_list[4] =
+[28669.995318][ctx       none]		type = 2
+[28669.995318][ctx       none]		flags = 1
+[28669.995318][ctx       none]		value.type = 1
+[28669.995318][ctx       none]		value.value.i = 0x00000080
+[28669.995319][ctx       none]	attrib_list[5] =
+[28669.995319][ctx       none]		type = 4
+[28669.995319][ctx       none]		flags = 1
+[28669.995319][ctx       none]		value.type = 1
+[28669.995319][ctx       none]		value.value.i = 0x00000080
+[28669.995319][ctx       none]	attrib_list[6] =
+[28669.995319][ctx       none]		type = 3
+[28669.995320][ctx       none]		flags = 1
+[28669.995320][ctx       none]		value.type = 1
+[28669.995320][ctx       none]		value.value.i = 0x00001000
+[28669.995320][ctx       none]	attrib_list[7] =
+[28669.995320][ctx       none]		type = 5
+[28669.995320][ctx       none]		flags = 1
+[28669.995321][ctx       none]		value.type = 1
+[28669.995321][ctx       none]		value.value.i = 0x00001000
+[28669.995324][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995325][ctx       none]==========va_TraceCreateConfig
+[28669.995325][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995326][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995326][ctx       none]	num_attribs = 0
+[28669.995328][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995328][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995329][ctx       none]==========va_TraceDestroyConfig
+[28669.995329][ctx       none]	config = 0x00000002
+[28669.995331][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995331][ctx       none]==========va_TraceDestroyConfig
+[28669.995332][ctx       none]	config = 0x00000001
+[28669.995333][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995334][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995335][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995336][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995336][ctx       none]==========va_TraceCreateConfig
+[28669.995337][ctx       none]	profile = 7, VAProfileH264High
+[28669.995337][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995337][ctx       none]	num_attribs = 3
+[28669.995337][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995337][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995338][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995338][ctx       none]		attrib_list[1].value = 0x00000002
+[28669.995338][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995338][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995340][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995341][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995341][ctx       none]	config = 0x00000001
+[28669.995342][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995343][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995344][ctx       none]	config = 0x00000001
+[28669.995344][ctx       none]	attrib_list[0] =
+[28669.995344][ctx       none]		type = 1
+[28669.995344][ctx       none]		flags = 3
+[28669.995344][ctx       none]		value.type = 1
+[28669.995344][ctx       none]		value.value.i = 0x3231564e
+[28669.995345][ctx       none]	attrib_list[1] =
+[28669.995345][ctx       none]		type = 1
+[28669.995345][ctx       none]		flags = 3
+[28669.995345][ctx       none]		value.type = 1
+[28669.995345][ctx       none]		value.value.i = 0x30313050
+[28669.995345][ctx       none]	attrib_list[2] =
+[28669.995346][ctx       none]		type = 6
+[28669.995346][ctx       none]		flags = 3
+[28669.995346][ctx       none]		value.type = 1
+[28669.995346][ctx       none]		value.value.i = 0x68000001
+[28669.995346][ctx       none]	attrib_list[3] =
+[28669.995346][ctx       none]		type = 7
+[28669.995346][ctx       none]		flags = 2
+[28669.995347][ctx       none]		value.type = 3
+[28669.995347][ctx       none]		value.value.p = (nil)
+[28669.995347][ctx       none]	attrib_list[4] =
+[28669.995347][ctx       none]		type = 9
+[28669.995347][ctx       none]		flags = 2
+[28669.995347][ctx       none]		value.type = 3
+[28669.995348][ctx       none]		value.value.p = (nil)
+[28669.995348][ctx       none]	attrib_list[5] =
+[28669.995348][ctx       none]		type = 2
+[28669.995348][ctx       none]		flags = 1
+[28669.995348][ctx       none]		value.type = 1
+[28669.995348][ctx       none]		value.value.i = 0x00000080
+[28669.995349][ctx       none]	attrib_list[6] =
+[28669.995349][ctx       none]		type = 4
+[28669.995349][ctx       none]		flags = 1
+[28669.995349][ctx       none]		value.type = 1
+[28669.995349][ctx       none]		value.value.i = 0x00000080
+[28669.995349][ctx       none]	attrib_list[7] =
+[28669.995349][ctx       none]		type = 3
+[28669.995350][ctx       none]		flags = 1
+[28669.995350][ctx       none]		value.type = 1
+[28669.995350][ctx       none]		value.value.i = 0x00001000
+[28669.995350][ctx       none]	attrib_list[8] =
+[28669.995350][ctx       none]		type = 5
+[28669.995350][ctx       none]		flags = 1
+[28669.995351][ctx       none]		value.type = 1
+[28669.995351][ctx       none]		value.value.i = 0x00001000
+[28669.995355][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995356][ctx       none]==========va_TraceCreateConfig
+[28669.995356][ctx       none]	profile = 7, VAProfileH264High
+[28669.995356][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995356][ctx       none]	num_attribs = 0
+[28669.995358][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995359][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995360][ctx       none]==========va_TraceDestroyConfig
+[28669.995360][ctx       none]	config = 0x00000002
+[28669.995361][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995362][ctx       none]==========va_TraceDestroyConfig
+[28669.995362][ctx       none]	config = 0x00000001
+[28669.995364][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995365][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995366][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995368][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995368][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995369][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995370][ctx       none]==========va_TraceCreateConfig
+[28669.995370][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995370][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995371][ctx       none]	num_attribs = 3
+[28669.995371][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995371][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995371][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995371][ctx       none]		attrib_list[1].value = 0x00000010
+[28669.995372][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995372][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995374][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995374][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995374][ctx       none]	config = 0x00000001
+[28669.995376][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995377][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995377][ctx       none]	config = 0x00000001
+[28669.995377][ctx       none]	attrib_list[0] =
+[28669.995377][ctx       none]		type = 1
+[28669.995378][ctx       none]		flags = 3
+[28669.995378][ctx       none]		value.type = 1
+[28669.995378][ctx       none]		value.value.i = 0x3231564e
+[28669.995378][ctx       none]	attrib_list[1] =
+[28669.995378][ctx       none]		type = 6
+[28669.995378][ctx       none]		flags = 3
+[28669.995379][ctx       none]		value.type = 1
+[28669.995379][ctx       none]		value.value.i = 0x68000001
+[28669.995379][ctx       none]	attrib_list[2] =
+[28669.995379][ctx       none]		type = 7
+[28669.995379][ctx       none]		flags = 2
+[28669.995379][ctx       none]		value.type = 3
+[28669.995380][ctx       none]		value.value.p = (nil)
+[28669.995380][ctx       none]	attrib_list[3] =
+[28669.995380][ctx       none]		type = 9
+[28669.995380][ctx       none]		flags = 2
+[28669.995380][ctx       none]		value.type = 3
+[28669.995380][ctx       none]		value.value.p = (nil)
+[28669.995380][ctx       none]	attrib_list[4] =
+[28669.995381][ctx       none]		type = 2
+[28669.995381][ctx       none]		flags = 1
+[28669.995381][ctx       none]		value.type = 1
+[28669.995381][ctx       none]		value.value.i = 0x00000080
+[28669.995381][ctx       none]	attrib_list[5] =
+[28669.995381][ctx       none]		type = 4
+[28669.995382][ctx       none]		flags = 1
+[28669.995382][ctx       none]		value.type = 1
+[28669.995382][ctx       none]		value.value.i = 0x00000080
+[28669.995382][ctx       none]	attrib_list[6] =
+[28669.995382][ctx       none]		type = 3
+[28669.995382][ctx       none]		flags = 1
+[28669.995383][ctx       none]		value.type = 1
+[28669.995383][ctx       none]		value.value.i = 0x00001000
+[28669.995383][ctx       none]	attrib_list[7] =
+[28669.995383][ctx       none]		type = 5
+[28669.995383][ctx       none]		flags = 1
+[28669.995383][ctx       none]		value.type = 1
+[28669.995384][ctx       none]		value.value.i = 0x00001000
+[28669.995387][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995388][ctx       none]==========va_TraceCreateConfig
+[28669.995388][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995388][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995389][ctx       none]	num_attribs = 0
+[28669.995390][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995391][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995392][ctx       none]==========va_TraceDestroyConfig
+[28669.995392][ctx       none]	config = 0x00000002
+[28669.995394][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995394][ctx       none]==========va_TraceDestroyConfig
+[28669.995394][ctx       none]	config = 0x00000001
+[28669.995396][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995397][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995398][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995398][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995399][ctx       none]==========va_TraceCreateConfig
+[28669.995399][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995399][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995400][ctx       none]	num_attribs = 3
+[28669.995400][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995400][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995400][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995400][ctx       none]		attrib_list[1].value = 0x00000010
+[28669.995401][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995401][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995403][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995403][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995404][ctx       none]	config = 0x00000001
+[28669.995405][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995406][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995406][ctx       none]	config = 0x00000001
+[28669.995406][ctx       none]	attrib_list[0] =
+[28669.995407][ctx       none]		type = 1
+[28669.995407][ctx       none]		flags = 3
+[28669.995407][ctx       none]		value.type = 1
+[28669.995407][ctx       none]		value.value.i = 0x3231564e
+[28669.995407][ctx       none]	attrib_list[1] =
+[28669.995407][ctx       none]		type = 6
+[28669.995408][ctx       none]		flags = 3
+[28669.995408][ctx       none]		value.type = 1
+[28669.995408][ctx       none]		value.value.i = 0x68000001
+[28669.995408][ctx       none]	attrib_list[2] =
+[28669.995408][ctx       none]		type = 7
+[28669.995408][ctx       none]		flags = 2
+[28669.995409][ctx       none]		value.type = 3
+[28669.995409][ctx       none]		value.value.p = (nil)
+[28669.995409][ctx       none]	attrib_list[3] =
+[28669.995409][ctx       none]		type = 9
+[28669.995409][ctx       none]		flags = 2
+[28669.995409][ctx       none]		value.type = 3
+[28669.995409][ctx       none]		value.value.p = (nil)
+[28669.995410][ctx       none]	attrib_list[4] =
+[28669.995410][ctx       none]		type = 2
+[28669.995410][ctx       none]		flags = 1
+[28669.995410][ctx       none]		value.type = 1
+[28669.995410][ctx       none]		value.value.i = 0x00000080
+[28669.995410][ctx       none]	attrib_list[5] =
+[28669.995411][ctx       none]		type = 4
+[28669.995411][ctx       none]		flags = 1
+[28669.995411][ctx       none]		value.type = 1
+[28669.995411][ctx       none]		value.value.i = 0x00000080
+[28669.995411][ctx       none]	attrib_list[6] =
+[28669.995411][ctx       none]		type = 3
+[28669.995412][ctx       none]		flags = 1
+[28669.995412][ctx       none]		value.type = 1
+[28669.995412][ctx       none]		value.value.i = 0x00001000
+[28669.995412][ctx       none]	attrib_list[7] =
+[28669.995412][ctx       none]		type = 5
+[28669.995412][ctx       none]		flags = 1
+[28669.995412][ctx       none]		value.type = 1
+[28669.995413][ctx       none]		value.value.i = 0x00001000
+[28669.995416][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995417][ctx       none]==========va_TraceCreateConfig
+[28669.995417][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995418][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995418][ctx       none]	num_attribs = 0
+[28669.995420][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995421][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995421][ctx       none]==========va_TraceDestroyConfig
+[28669.995421][ctx       none]	config = 0x00000002
+[28669.995423][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995424][ctx       none]==========va_TraceDestroyConfig
+[28669.995424][ctx       none]	config = 0x00000001
+[28669.995425][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995426][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995427][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995428][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995429][ctx       none]==========va_TraceCreateConfig
+[28669.995429][ctx       none]	profile = 7, VAProfileH264High
+[28669.995429][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995429][ctx       none]	num_attribs = 3
+[28669.995429][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995430][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995430][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995430][ctx       none]		attrib_list[1].value = 0x00000010
+[28669.995430][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995430][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995432][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995433][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995433][ctx       none]	config = 0x00000001
+[28669.995435][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995436][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995436][ctx       none]	config = 0x00000001
+[28669.995436][ctx       none]	attrib_list[0] =
+[28669.995436][ctx       none]		type = 1
+[28669.995436][ctx       none]		flags = 3
+[28669.995437][ctx       none]		value.type = 1
+[28669.995437][ctx       none]		value.value.i = 0x3231564e
+[28669.995437][ctx       none]	attrib_list[1] =
+[28669.995437][ctx       none]		type = 1
+[28669.995437][ctx       none]		flags = 3
+[28669.995437][ctx       none]		value.type = 1
+[28669.995438][ctx       none]		value.value.i = 0x30313050
+[28669.995438][ctx       none]	attrib_list[2] =
+[28669.995438][ctx       none]		type = 6
+[28669.995438][ctx       none]		flags = 3
+[28669.995438][ctx       none]		value.type = 1
+[28669.995438][ctx       none]		value.value.i = 0x68000001
+[28669.995438][ctx       none]	attrib_list[3] =
+[28669.995439][ctx       none]		type = 7
+[28669.995439][ctx       none]		flags = 2
+[28669.995439][ctx       none]		value.type = 3
+[28669.995439][ctx       none]		value.value.p = (nil)
+[28669.995439][ctx       none]	attrib_list[4] =
+[28669.995439][ctx       none]		type = 9
+[28669.995440][ctx       none]		flags = 2
+[28669.995440][ctx       none]		value.type = 3
+[28669.995440][ctx       none]		value.value.p = (nil)
+[28669.995440][ctx       none]	attrib_list[5] =
+[28669.995440][ctx       none]		type = 2
+[28669.995440][ctx       none]		flags = 1
+[28669.995441][ctx       none]		value.type = 1
+[28669.995441][ctx       none]		value.value.i = 0x00000080
+[28669.995441][ctx       none]	attrib_list[6] =
+[28669.995441][ctx       none]		type = 4
+[28669.995441][ctx       none]		flags = 1
+[28669.995441][ctx       none]		value.type = 1
+[28669.995441][ctx       none]		value.value.i = 0x00000080
+[28669.995442][ctx       none]	attrib_list[7] =
+[28669.995442][ctx       none]		type = 3
+[28669.995442][ctx       none]		flags = 1
+[28669.995442][ctx       none]		value.type = 1
+[28669.995442][ctx       none]		value.value.i = 0x00001000
+[28669.995442][ctx       none]	attrib_list[8] =
+[28669.995443][ctx       none]		type = 5
+[28669.995443][ctx       none]		flags = 1
+[28669.995443][ctx       none]		value.type = 1
+[28669.995443][ctx       none]		value.value.i = 0x00001000
+[28669.995447][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995448][ctx       none]==========va_TraceCreateConfig
+[28669.995448][ctx       none]	profile = 7, VAProfileH264High
+[28669.995448][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995448][ctx       none]	num_attribs = 0
+[28669.995450][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995451][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995452][ctx       none]==========va_TraceDestroyConfig
+[28669.995452][ctx       none]	config = 0x00000002
+[28669.995453][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995454][ctx       none]==========va_TraceDestroyConfig
+[28669.995454][ctx       none]	config = 0x00000001
+[28669.995456][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995457][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995458][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995459][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995460][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995461][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995462][ctx       none]==========va_TraceCreateConfig
+[28669.995462][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995462][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995462][ctx       none]	num_attribs = 3
+[28669.995462][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995463][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995463][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995463][ctx       none]		attrib_list[1].value = 0x00000004
+[28669.995463][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995463][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995465][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995466][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995466][ctx       none]	config = 0x00000001
+[28669.995470][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995471][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995471][ctx       none]	config = 0x00000001
+[28669.995472][ctx       none]	attrib_list[0] =
+[28669.995472][ctx       none]		type = 1
+[28669.995472][ctx       none]		flags = 3
+[28669.995473][ctx       none]		value.type = 1
+[28669.995473][ctx       none]		value.value.i = 0x3231564e
+[28669.995473][ctx       none]	attrib_list[1] =
+[28669.995474][ctx       none]		type = 6
+[28669.995474][ctx       none]		flags = 3
+[28669.995474][ctx       none]		value.type = 1
+[28669.995474][ctx       none]		value.value.i = 0x68000001
+[28669.995475][ctx       none]	attrib_list[2] =
+[28669.995475][ctx       none]		type = 7
+[28669.995475][ctx       none]		flags = 2
+[28669.995476][ctx       none]		value.type = 3
+[28669.995476][ctx       none]		value.value.p = (nil)
+[28669.995476][ctx       none]	attrib_list[3] =
+[28669.995477][ctx       none]		type = 9
+[28669.995477][ctx       none]		flags = 2
+[28669.995477][ctx       none]		value.type = 3
+[28669.995478][ctx       none]		value.value.p = (nil)
+[28669.995478][ctx       none]	attrib_list[4] =
+[28669.995478][ctx       none]		type = 2
+[28669.995478][ctx       none]		flags = 1
+[28669.995479][ctx       none]		value.type = 1
+[28669.995479][ctx       none]		value.value.i = 0x00000080
+[28669.995479][ctx       none]	attrib_list[5] =
+[28669.995480][ctx       none]		type = 4
+[28669.995480][ctx       none]		flags = 1
+[28669.995480][ctx       none]		value.type = 1
+[28669.995481][ctx       none]		value.value.i = 0x00000080
+[28669.995481][ctx       none]	attrib_list[6] =
+[28669.995481][ctx       none]		type = 3
+[28669.995482][ctx       none]		flags = 1
+[28669.995482][ctx       none]		value.type = 1
+[28669.995482][ctx       none]		value.value.i = 0x00001000
+[28669.995483][ctx       none]	attrib_list[7] =
+[28669.995483][ctx       none]		type = 5
+[28669.995483][ctx       none]		flags = 1
+[28669.995483][ctx       none]		value.type = 1
+[28669.995484][ctx       none]		value.value.i = 0x00001000
+[28669.995486][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995488][ctx       none]==========va_TraceCreateConfig
+[28669.995488][ctx       none]	profile = 13, VAProfileH264ConstrainedBaseline
+[28669.995489][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995489][ctx       none]	num_attribs = 0
+[28669.995491][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995492][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995493][ctx       none]==========va_TraceDestroyConfig
+[28669.995493][ctx       none]	config = 0x00000002
+[28669.995494][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995495][ctx       none]==========va_TraceDestroyConfig
+[28669.995495][ctx       none]	config = 0x00000001
+[28669.995497][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995498][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995499][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995499][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995500][ctx       none]==========va_TraceCreateConfig
+[28669.995500][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995500][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995501][ctx       none]	num_attribs = 3
+[28669.995501][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995501][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995501][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995501][ctx       none]		attrib_list[1].value = 0x00000004
+[28669.995502][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995502][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995506][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995507][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995507][ctx       none]	config = 0x00000001
+[28669.995509][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995510][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995510][ctx       none]	config = 0x00000001
+[28669.995510][ctx       none]	attrib_list[0] =
+[28669.995510][ctx       none]		type = 1
+[28669.995510][ctx       none]		flags = 3
+[28669.995511][ctx       none]		value.type = 1
+[28669.995511][ctx       none]		value.value.i = 0x3231564e
+[28669.995511][ctx       none]	attrib_list[1] =
+[28669.995511][ctx       none]		type = 6
+[28669.995511][ctx       none]		flags = 3
+[28669.995511][ctx       none]		value.type = 1
+[28669.995512][ctx       none]		value.value.i = 0x68000001
+[28669.995512][ctx       none]	attrib_list[2] =
+[28669.995512][ctx       none]		type = 7
+[28669.995512][ctx       none]		flags = 2
+[28669.995512][ctx       none]		value.type = 3
+[28669.995512][ctx       none]		value.value.p = (nil)
+[28669.995513][ctx       none]	attrib_list[3] =
+[28669.995513][ctx       none]		type = 9
+[28669.995513][ctx       none]		flags = 2
+[28669.995513][ctx       none]		value.type = 3
+[28669.995513][ctx       none]		value.value.p = (nil)
+[28669.995513][ctx       none]	attrib_list[4] =
+[28669.995513][ctx       none]		type = 2
+[28669.995514][ctx       none]		flags = 1
+[28669.995514][ctx       none]		value.type = 1
+[28669.995514][ctx       none]		value.value.i = 0x00000080
+[28669.995514][ctx       none]	attrib_list[5] =
+[28669.995514][ctx       none]		type = 4
+[28669.995514][ctx       none]		flags = 1
+[28669.995515][ctx       none]		value.type = 1
+[28669.995515][ctx       none]		value.value.i = 0x00000080
+[28669.995515][ctx       none]	attrib_list[6] =
+[28669.995515][ctx       none]		type = 3
+[28669.995515][ctx       none]		flags = 1
+[28669.995515][ctx       none]		value.type = 1
+[28669.995515][ctx       none]		value.value.i = 0x00001000
+[28669.995516][ctx       none]	attrib_list[7] =
+[28669.995516][ctx       none]		type = 5
+[28669.995516][ctx       none]		flags = 1
+[28669.995516][ctx       none]		value.type = 1
+[28669.995516][ctx       none]		value.value.i = 0x00001000
+[28669.995518][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995519][ctx       none]==========va_TraceCreateConfig
+[28669.995519][ctx       none]	profile = 6, VAProfileH264Main
+[28669.995519][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995519][ctx       none]	num_attribs = 0
+[28669.995521][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995522][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995522][ctx       none]==========va_TraceDestroyConfig
+[28669.995523][ctx       none]	config = 0x00000002
+[28669.995524][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995525][ctx       none]==========va_TraceDestroyConfig
+[28669.995525][ctx       none]	config = 0x00000001
+[28669.995527][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995527][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995528][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995529][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995530][ctx       none]==========va_TraceCreateConfig
+[28669.995530][ctx       none]	profile = 7, VAProfileH264High
+[28669.995530][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995530][ctx       none]	num_attribs = 3
+[28669.995530][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995531][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995531][ctx       none]		attrib_list[1].type = 0x00000005, VAConfigAttribRateControl
+[28669.995531][ctx       none]		attrib_list[1].value = 0x00000004
+[28669.995531][ctx       none]		attrib_list[2].type = 0x0000000a, VAConfigAttribEncPackedHeaders
+[28669.995531][ctx       none]		attrib_list[2].value = 0x00000007
+[28669.995536][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995536][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995536][ctx       none]	config = 0x00000001
+[28669.995538][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995539][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995539][ctx       none]	config = 0x00000001
+[28669.995539][ctx       none]	attrib_list[0] =
+[28669.995540][ctx       none]		type = 1
+[28669.995540][ctx       none]		flags = 3
+[28669.995540][ctx       none]		value.type = 1
+[28669.995540][ctx       none]		value.value.i = 0x3231564e
+[28669.995540][ctx       none]	attrib_list[1] =
+[28669.995540][ctx       none]		type = 1
+[28669.995541][ctx       none]		flags = 3
+[28669.995541][ctx       none]		value.type = 1
+[28669.995541][ctx       none]		value.value.i = 0x30313050
+[28669.995541][ctx       none]	attrib_list[2] =
+[28669.995541][ctx       none]		type = 6
+[28669.995541][ctx       none]		flags = 3
+[28669.995541][ctx       none]		value.type = 1
+[28669.995542][ctx       none]		value.value.i = 0x68000001
+[28669.995542][ctx       none]	attrib_list[3] =
+[28669.995542][ctx       none]		type = 7
+[28669.995542][ctx       none]		flags = 2
+[28669.995542][ctx       none]		value.type = 3
+[28669.995542][ctx       none]		value.value.p = (nil)
+[28669.995543][ctx       none]	attrib_list[4] =
+[28669.995543][ctx       none]		type = 9
+[28669.995543][ctx       none]		flags = 2
+[28669.995543][ctx       none]		value.type = 3
+[28669.995543][ctx       none]		value.value.p = (nil)
+[28669.995543][ctx       none]	attrib_list[5] =
+[28669.995544][ctx       none]		type = 2
+[28669.995544][ctx       none]		flags = 1
+[28669.995544][ctx       none]		value.type = 1
+[28669.995544][ctx       none]		value.value.i = 0x00000080
+[28669.995544][ctx       none]	attrib_list[6] =
+[28669.995544][ctx       none]		type = 4
+[28669.995544][ctx       none]		flags = 1
+[28669.995545][ctx       none]		value.type = 1
+[28669.995545][ctx       none]		value.value.i = 0x00000080
+[28669.995545][ctx       none]	attrib_list[7] =
+[28669.995545][ctx       none]		type = 3
+[28669.995545][ctx       none]		flags = 1
+[28669.995545][ctx       none]		value.type = 1
+[28669.995546][ctx       none]		value.value.i = 0x00001000
+[28669.995546][ctx       none]	attrib_list[8] =
+[28669.995546][ctx       none]		type = 5
+[28669.995546][ctx       none]		flags = 1
+[28669.995546][ctx       none]		value.type = 1
+[28669.995546][ctx       none]		value.value.i = 0x00001000
+[28669.995548][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995549][ctx       none]==========va_TraceCreateConfig
+[28669.995549][ctx       none]	profile = 7, VAProfileH264High
+[28669.995549][ctx       none]	entrypoint = 6, VAEntrypointEncSlice
+[28669.995549][ctx       none]	num_attribs = 0
+[28669.995551][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995552][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995553][ctx       none]==========va_TraceDestroyConfig
+[28669.995553][ctx       none]	config = 0x00000002
+[28669.995554][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995555][ctx       none]==========va_TraceDestroyConfig
+[28669.995555][ctx       none]	config = 0x00000001
+[28669.995557][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995558][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995558][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995560][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995560][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995561][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995562][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995563][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995563][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995564][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995565][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995566][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995566][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995567][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995568][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995569][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995569][ctx       none]=========vaQueryConfigEntrypoints ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995573][ctx       none]=========vaGetConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995575][ctx       none]==========va_TraceCreateConfig
+[28669.995575][ctx       none]	profile = -1, VAProfileNone
+[28669.995576][ctx       none]	entrypoint = 10, VAEntrypointVideoProc
+[28669.995576][ctx       none]	num_attribs = 1
+[28669.995576][ctx       none]		attrib_list[0].type = 0x00000000, VAConfigAttribRTFormat
+[28669.995576][ctx       none]		attrib_list[0].value = 0x00000001
+[28669.995580][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995581][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995581][ctx       none]	config = 0x00000001
+[28669.995583][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995587][ctx       none]==========va_TraceQuerySurfaceAttributes
+[28669.995587][ctx       none]	config = 0x00000001
+[28669.995587][ctx       none]	attrib_list[0] =
+[28669.995587][ctx       none]		type = 1
+[28669.995587][ctx       none]		flags = 3
+[28669.995588][ctx       none]		value.type = 1
+[28669.995588][ctx       none]		value.value.i = 0x3231564e
+[28669.995588][ctx       none]	attrib_list[1] =
+[28669.995588][ctx       none]		type = 1
+[28669.995588][ctx       none]		flags = 3
+[28669.995588][ctx       none]		value.type = 1
+[28669.995589][ctx       none]		value.value.i = 0x32315659
+[28669.995589][ctx       none]	attrib_list[2] =
+[28669.995589][ctx       none]		type = 1
+[28669.995589][ctx       none]		flags = 3
+[28669.995589][ctx       none]		value.type = 1
+[28669.995589][ctx       none]		value.value.i = 0x30323449
+[28669.995589][ctx       none]	attrib_list[3] =
+[28669.995590][ctx       none]		type = 1
+[28669.995590][ctx       none]		flags = 3
+[28669.995590][ctx       none]		value.type = 1
+[28669.995590][ctx       none]		value.value.i = 0x30313050
+[28669.995590][ctx       none]	attrib_list[4] =
+[28669.995590][ctx       none]		type = 1
+[28669.995591][ctx       none]		flags = 3
+[28669.995591][ctx       none]		value.type = 1
+[28669.995591][ctx       none]		value.value.i = 0x36313050
+[28669.995591][ctx       none]	attrib_list[5] =
+[28669.995591][ctx       none]		type = 1
+[28669.995591][ctx       none]		flags = 3
+[28669.995592][ctx       none]		value.type = 1
+[28669.995592][ctx       none]		value.value.i = 0x32313050
+[28669.995592][ctx       none]	attrib_list[6] =
+[28669.995592][ctx       none]		type = 1
+[28669.995592][ctx       none]		flags = 3
+[28669.995592][ctx       none]		value.type = 1
+[28669.995592][ctx       none]		value.value.i = 0x30303859
+[28669.995593][ctx       none]	attrib_list[7] =
+[28669.995593][ctx       none]		type = 1
+[28669.995593][ctx       none]		flags = 3
+[28669.995593][ctx       none]		value.type = 1
+[28669.995593][ctx       none]		value.value.i = 0x59565955
+[28669.995593][ctx       none]	attrib_list[8] =
+[28669.995594][ctx       none]		type = 1
+[28669.995594][ctx       none]		flags = 3
+[28669.995594][ctx       none]		value.type = 1
+[28669.995594][ctx       none]		value.value.i = 0x32595559
+[28669.995594][ctx       none]	attrib_list[9] =
+[28669.995594][ctx       none]		type = 1
+[28669.995595][ctx       none]		flags = 3
+[28669.995595][ctx       none]		value.type = 1
+[28669.995595][ctx       none]		value.value.i = 0x56323234
+[28669.995595][ctx       none]	attrib_list[10] =
+[28669.995595][ctx       none]		type = 1
+[28669.995595][ctx       none]		flags = 3
+[28669.995595][ctx       none]		value.type = 1
+[28669.995596][ctx       none]		value.value.i = 0x50343434
+[28669.995599][ctx       none]=========vaQuerySurfaceAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995601][ctx       none]==========va_TraceCreateConfig
+[28669.995601][ctx       none]	profile = -1, VAProfileNone
+[28669.995602][ctx       none]	entrypoint = 10, VAEntrypointVideoProc
+[28669.995602][ctx       none]	num_attribs = 0
+[28669.995604][ctx       none]=========vaCreateConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995605][ctx       none]=========vaQueryConfigAttributes ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995606][ctx       none]==========va_TraceDestroyConfig
+[28669.995606][ctx       none]	config = 0x00000002
+[28669.995608][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.995608][ctx       none]==========va_TraceDestroyConfig
+[28669.995608][ctx       none]	config = 0x00000001
+[28669.995610][ctx       none]=========vaDestroyConfig ret = VA_STATUS_SUCCESS, success (no error) 
+[28669.996122][ctx       none]==========va_TraceTerminate
+[28669.996128][ctx       none]=========vaTerminate ret = VA_STATUS_SUCCESS, success (no error) 
